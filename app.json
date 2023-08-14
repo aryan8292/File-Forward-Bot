@@ -21,27 +21,33 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "required": true
+            "required": true 
+            "value": "6220400328:AAFoZ_0fKXPxoJqmLFAyeIPpXjpN3Wlqnt8"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
+            "value": "3334521"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "required": true
+            "required": true  
+            "value": "29edd7420d528140c7a04bd47486886f"
         },
         "TARGET_DB": {
             "description": "ID of channel which you want the bot to send all files to.",
-            "required": true
+            "required": true 
+            "value": "-1001802577032"
         },
         "ADMINS": {
             "description": "ID of Admin. Separate multiple Admins by space.",
-            "required": true
+            "required": true 
+            "value": "5079629749"
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "required": true
+            "required": true 
+            "value": "-1001802577032"
         }
     },
     "addons": [],
