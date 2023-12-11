@@ -23,13 +23,7 @@ async def query_handler(bot: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(btn)
         )
     elif query.data == "home":
-        btn = [[
-            InlineKeyboardButton("About", callback_data="about"),
-            InlineKeyboardButton("Souce Code", callback_data="source")
-        ],[
-            InlineKeyboardButton("Close", callback_data="close"),
-            InlineKeyboardButton("Help", callback_data="help")
-        ]]
+        
         await query.message.edit_text(
             text=scripts.START_TXT.format(query.from_user.mention, temp_utils.USER_NAME, temp_utils.BOT_NAME),
             disable_web_page_preview=True,
