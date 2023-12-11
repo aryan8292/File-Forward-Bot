@@ -7,9 +7,7 @@ class scripts(object):
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
-    START_TXT = """
-<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I'm Just A Private Forward Bot Made By <a href='t.me/creatorbeatz'>Jᴏᴇʟ ᠰ TɢX</a>.</b>"""
+    START_TXT = """ """
 
     ABOUT_TXT = """
 <b>✯ Mʏ Nᴀᴍᴇ: {}
